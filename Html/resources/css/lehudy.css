@@ -1,0 +1,87 @@
+﻿/*网站导航*/
+.navbar-inverse .navbar-brand{
+	color:#fff;
+	font-size:24px
+}
+
+.navbar-inverse{
+	background-color:#3a5795;
+	border-color:#3a5795
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:#fff
+}
+.navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>li>a:focus{
+	color:#fff;
+	background-color:#2f477a
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>.active>a:focus{
+	color:#fff;
+	background-color:#2f477a
+}
+.navbar-inverse{
+	border-radius:0
+}
+
+/*导航栏登陆注册*/
+.huser{
+	padding-top:16px;
+	font-size:12px
+}
+.huser .hum{
+	padding:1px;
+	float:right
+}
+.huser .hum a{
+	color:#fff
+}
+.huser .hum a:hover{
+	color:#b8b8b8
+}
+.huser .hum b a{
+	color:#d9534f
+}
+.huser .hum b a:hover{
+	text-decoration:underline;
+	color:#d9534f
+}
+.huser .dropdown{
+	float:right
+}
+.huser .dropdown .dropdown-text{
+	color:#d9534f
+}
+.huser .dropdown .dropdown-menu-zhui{
+	font-size:12px
+}
+
+
+/*首页版权说明*/
+.gray{
+	color:#b8b8b8
+}
+.gray a{
+	color:#b8b8b8
+}
+.gray a:hover{
+	color:#2a6496
+}
+.gray_back{
+	color:#f8f8f8
+}
+
+/*页面底部样式*/
+#footer{
+	width:100%;
+	padding-top:15px;
+	height:50px;
+	font-size:12px;
+	background-color:#3a5795;
+	color:#fff
+}
+#footer a{
+	color:#fff
+}
+#footer a:hover{
+	color:#b8b8b8
+}
