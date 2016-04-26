@@ -1,0 +1,53 @@
+/*!
+ * 乐乎电影
+ * Copyright 2016
+ * 
+ */
+
+ 
+/*全局*/
+ body{
+ 	overflow-x: hidden;
+ }
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*导航条*/
+ .navbar{
+ 	border-radius: 0px;
+    border: none;
+    background: url(../images/index_back.png);
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+ }
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-size: 24px;   
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container{
+	max-width: 1000px;
+}
+.navbar-user {
+    padding-top: 12px;
+    font-size: 12px;
+}
+.navbar-user .hum {
+    padding: 1px;
+    float: right;
+}
+.hum a {
+  	color: #fff;
+}
+
