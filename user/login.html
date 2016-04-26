@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="origin" name="referrer" />
+    <title>登录 · 乐乎电影</title>
+    <link href="resources/stylesheets/login_1.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="resources/stylesheets/login_2.css" media="all" rel="stylesheet" type="text/css" /> 
+    <script type="text/javascript">
+    	/*登陆信息检查*/
+    	function loginCheck(loginForm){
+    		if (loginForm.username.value == ""){
+    			alert("请输入用户名!");
+    			loginForm.username.focus();
+    			return (false);
+  			}
+  			if (loginForm.password.value == ""){
+    			alert("请输入密码!");
+    			loginForm.password.focus();
+    			return (false);
+  			}
+    	}
+    </script>
+  </head>
+  <body class="logged_out  env-production windows  signin">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      <div class="header header-logged-out">
+  		<div class="container clearfix">
+   		 	<div class="header-actions">
+        		<a class="button primary" href="register.html">注册</a>
+      			<a class="button signin" href="login.html">登录</a>
+    		</div>
+ 		</div>
+	 </div>
+      <div id="start-of-content" class="accessibility-aid"></div>
+        <div class="site clearfix">
+          <div id="site-container" class="context-loader-container" data-pjax-container>
+		  <div class="auth-form" id="login">
+    			<form accept-charset="UTF-8" name="loginForm" action="login.php" method="post" onSubmit="return loginCheck(this)">
+      				<div class="auth-form-header">
+        				<h1>登录</h1>
+     	 			</div>
+      				<div class="auth-form-body">
+        				<label for="login_field">
+          					用户名/邮箱
+        				</label>
+        				<input autocapitalize="off" autocorrect="off" autofocus="autofocus" class="input-block" id="login_field" name="username" tabindex="1" type="text" />
+       					<label for="password">
+          					密码 <a href="#">(忘记密码？)</a>
+        				</label>
+        				<input class="input-block" id="password" name="password" tabindex="2" type="password" />
+        				<input class="button" name="submit" tabindex="3" type="submit" value="登录" />
+      				</div>
+  				</form>
+		  </div>
+          </div>
+          <div class="modal-backdrop"></div>
+        </div>
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+   		<div class="site-footer">
+    		<ul class="site-footer-links">
+      			<li>&copy; 2015 <span title="电影资源分享平台">乐乎电影</span></li>
+       			 <li><a href="#">联系我们</a></li>
+    		</ul>
+ 		 </div><!-- /.site-footer -->
+	  </div><!-- /.container -->
+
+  </body>
+</html>
