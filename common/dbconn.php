@@ -2,7 +2,7 @@
 /*****************************
 *数据库连接
 *****************************/
-$conn = mysqli_connect("localhost","root","root");
+$conn = mysqli_connect("localhost","root","1234567890");
 
 
 if (!$conn){

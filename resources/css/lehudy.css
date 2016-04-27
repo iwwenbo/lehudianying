@@ -15,14 +15,21 @@ a, a:hover, a:visited {
     cursor: pointer;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 /*导航条*/
  .navbar{
  	border-radius: 0px;
     border: none;
-    background: url(../images/index_back.png);
     position: relative;
     min-height: 50px;
     margin-bottom: 20px;
+    background-color: #3a5795;
+    border-color: #3a5795;
  }
 .navbar-inverse .navbar-brand {
     color: #ffffff;
@@ -51,3 +58,52 @@ a, a:hover, a:visited {
   	color: #fff;
 }
 
+/*最新页面样式*/
+
+.latest-navbar{
+    background-color: #f0f3f5;
+    height: 114px;
+}
+.latest-navbar-header{
+    margin-left: 188px;
+    margin-top: 5px;
+}
+.container-fluid{
+    min-width: 1000px;
+    height: 75px;
+    position: relative;
+    padding: 15px 0px 0px 188px;
+    border-bottom: 1px solid #e5ebe4;
+}
+
+a.latest-navbar-brand{
+    font-size: 29px;
+    color: #27a; 
+}
+.latest-navbar-search{
+    padding-left: 150px;
+}
+.latest-search-group{
+    margin: 8px 0px 8px 0px;
+}
+
+.nav-secondary{
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    overflow: hidden;
+    zoom: 1;
+}
+.nav-secondary .nav-items {
+    float: none;
+    zoom: 1;
+    font-size: 13px;
+    line-height: 21px;
+}
+.nav-secondary ul {
+    margin: 9px 0;
+}
+.nav-secondary li {
+    display: inline;
+    margin-right: 30px;
+}

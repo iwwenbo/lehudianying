@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="zh-cn"><head>
-
+<html lang="zh-cn">
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-     
-<link rel="stylesheet" type="text/css" href="resources/bootstrap/css/bootstrap.min.css" media="screen">
-<link rel="stylesheet" type="text/css" href="resources/css/lehudy.css" media="screen">
-<script type="text/javascript" src="resources/js/jquery-1.12.2.min.js"></script>
-<script type="text/javascript" src="resources/bootstrap/js/bootstrap.min.js"></script>
-
-<title>最新分享平台 - 乐乎电影</title>
+	<link rel="stylesheet" type="text/css" href="resources/bootstrap/css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="resources/css/lehudy.css" media="screen">
+	<script type="text/javascript" src="resources/js/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="resources/bootstrap/js/bootstrap.min.js"></script>
+	<title>最新分享平台 - 乐乎电影</title>
 </head>
 <body>
 <!-- 导航 -->
@@ -24,13 +22,13 @@
     <!-- 导航按钮 -->
     <ul class="nav navbar-nav">
         <li class="active"><a href="/movies/home.php">首页</a></li>
-        <li><a href="new.php">最新</a></li>
+        <li><a href="latest.php">最新</a></li>
         <li><a href="hot.php">热门</a></li>
     </ul>
     <!-- 用户登录注册 -->
     <ul class="nav navbar-nav navbar-right navbar-user">
         <div class="hum">
-            <a href="/movies/user/loginForm.php">登录</a>　<a href="/movies/user/registerForm.php">注册</a>
+            <a href="/movies/loginForm.php">登录</a>　<a href="/movies/registerForm.php">注册</a>
         </div>
     </ul>
     </div>
