@@ -73,6 +73,7 @@ a {
 }
 .navbar-inverse .navbar-nav > li > a {
     color: white;
+    font-size: 14px;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: white;
@@ -150,6 +151,10 @@ a.latest-navbar-brand{
     width: 1000px;
     margin: 0 auto;
 }
+#content{
+    min-height: 700px;
+    width: 1000px;
+}
 div.tool{
     height: 45px;
     border-bottom: 1px solid #eee;
@@ -177,7 +182,7 @@ div.check {
 }
 .article {
     float: left;
-    width: 590px;
+    width: 650px;
     padding-right: 40px;
 }
 .aside {
@@ -252,4 +257,23 @@ a.more {
 }
 #hotlist a {
     font-size: 13px;
+}
+
+
+/*footer*/
+
+#footer {
+    width: 1000px;
+    color: #999;
+    padding: 6px 0;
+    margin-top: 40px;
+    overflow: hidden;
+    zoom: 1;
+    border-top: 1px dashed #ddd;
+}
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
 }

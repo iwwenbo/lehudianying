@@ -183,6 +183,15 @@
         	</div>
         </div>
 	</div>
+	<div id="footer">
+            <div class="footer-extra"></div>
+			<span id="icp" class="fleft gray-link">
+			    © 2015－2016 lehudy.com, all rights reserved
+			</span>
+			<span class="fright">
+		    	<a href="https://www.lehudy.com/">关于乐乎电影</a>
+		    </span>
+     </div>
 </div>
 </body>
 </html>
