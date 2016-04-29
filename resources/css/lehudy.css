@@ -205,6 +205,8 @@ div.check {
     font-size: 13px;
     text-align: center;
     margin: 0 11.25px 10px 0;
+}
+div.list a{
     width: 140px;
 }
 .item .cover-wp {
@@ -215,8 +217,10 @@ div.check {
 }
 .item p {
     margin: 5px 0 0;
-    height: 44px;
     overflow: hidden;
+}
+div.list-mv p{
+    height: 44px;
 }
 .item strong {
     color: #e09015;
@@ -276,4 +280,48 @@ a.more {
 }
 .fright {
     float: right;
+}
+
+/*当前标签页*/
+.ul {
+    border-bottom: 1px dashed #DDDDDD;
+    line-height: 100%;
+    clear: both;
+}
+table {
+    border-collapse: collapse;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+body, td, th {
+    font: 12px Helvetica,Arial,sans-serif;
+    line-height: 1.62;
+}
+
+.pl2 {
+    font: 14px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    color: #666666;
+    text-align: left;
+}
+.pl {
+    font: 12px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    color: #666666;
+}
+
+.clearfix {
+    display: block;
 }
