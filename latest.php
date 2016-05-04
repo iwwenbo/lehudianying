@@ -34,7 +34,7 @@
 	<div class="nav-secondary">
       <div class="nav-items nav-anon">
           <ul>
-              <li><a href="https://movie.douban.com/nowplaying/">爱情</a></li>
+              <li><a href="curtag.php">爱情</a></li>
               <li><a href="https://movie.douban.com/explore">动作</a></li>
               <li><a href="https://movie.douban.com/tv/">战争</a></li>
               <li><a href="https://movie.douban.com/chart">科幻</a></li>

@@ -53,7 +53,7 @@
 <div id="wrapper">
 	<div id="content">
         <div class="article">
-	        <h1>最新电影</h1>
+	        <h1>电影标签：爱情</h1>
 			<div class="list-curtag">
 		    <div class="list">
 		    	<div class="">
